@@ -1,0 +1,83 @@
+/* login */
+body{background-color: floralwhite;}
+.login{
+    width:  300px;
+    margin: 100px auto;
+}
+.login input {
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: antiquewhite;
+}
+.login .btn {
+    background-color: blueviolet;
+}
+/* End login */
+/* logout button */
+a:link {
+    background-color: lightblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: gainsboro;
+}
+/* test style */
+ .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: antiquewhite;
+      height: 100%;
+    }
+.nav {
+    color: aqua;
+}
+.nav-pills {
+    color: aqua;
+}
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+/*****pour table ****/
+.mainTable th{
+    background-color: rosybrown;
+}
+.mainTable td{
+    background-color: burlywood;
+}
+/***********/
+/* navbar*/
+.navbar-inverse {
+  background-color: firebrick;
+  border-color: firebrick;
+}
+.tab-bord th {
+        background-color: lightblue;
+
+}
+.tab-bord td {
+    background-color: peachpuff;
+}
+li ,p , h3 , label  { color : darkblue; }
+/******/
+/*btn*/
+

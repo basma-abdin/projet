@@ -1,0 +1,77 @@
+body {
+   background-color: floralwhite;
+}
+
+.co {
+/*    padding: 20px;*/
+/*    background-color:crimson;*/
+    font-style: italic;
+    text-align: center;
+    color:darkblue;
+}
+/*p,*/
+h3  {
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+ h4 {
+   
+    font-size: 20px;
+     
+}
+#a1 {
+    background-color: transparent;
+    color: midnightblue;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block ;
+}
+
+.col-md-6 {
+    padding-left: 80px;
+}
+.container {
+        /*background-color:bisque;
+    /*height: 1000px;*/
+}
+.jumbotron{
+    background-color: tan;
+}
+.panel-default > .panel-heading {
+  color: darkblue;
+  background-color: firebrick;
+  border-color: #dbdd;
+}
+.pb{
+    background-color: tan;
+}
+.f{/*footer*/
+    background-color: firebrick;
+    color: black;
+}
+/* dialog box */
+
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #FFF; font-size:19px; padding:10px; color:#000; }
+#dialogbox > div > #dialogboxbody{ background: #FFF; padding:20px; color:#000; }
+#dialogbox > div > #dialogboxfoot{ background: #FFF; padding:10px; text-align:right; }
